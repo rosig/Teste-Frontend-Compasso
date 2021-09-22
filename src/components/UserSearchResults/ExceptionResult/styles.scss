@@ -1,0 +1,22 @@
+.exceptionResult {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.exceptionResult__message {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.exceptionResult__image {
+  width: 100%;
+  height: 300px;
+  max-height: 300px;
+  margin-top: 20px;
+  object-fit: cover;
+}

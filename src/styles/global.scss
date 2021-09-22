@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--black);
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--black);
+  }
+}
+
+:root {
+  --primary: #1673ff;
+  --white: #ffffff;
+  --gray: #d4d4d4;
+  --black: #000000;
+}

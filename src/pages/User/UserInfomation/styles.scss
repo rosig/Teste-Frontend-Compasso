@@ -1,0 +1,59 @@
+.userInformation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInformation__image {
+  width: 250px;
+  height: 210px;
+  border: 1px solid var(--gray);
+  object-fit: cover;
+}
+
+.userInformation__username {
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.userInformation__bio {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+}
+
+.userInformation__companyAndLocation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.userInformation__company,
+.userInformation__location {
+  padding: 0px 30px;
+  text-align: center;
+}
+
+.userInformation__company__icon,
+.userInformation__location__icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .userInformation__image {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .userInformation__image {
+    width: 150px;
+    height: 110px;
+  }
+}

@@ -1,0 +1,14 @@
+.loadingSpinners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loadingSpinners__message {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.loadingSpinners__icons {
+  margin-top: 20px;
+}

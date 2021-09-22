@@ -1,0 +1,22 @@
+@mixin titleFont {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.homePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.homePage__title {
+  @include titleFont;
+  text-align: center;
+}
+
+.homePage__title__highlighted {
+  @include titleFont;
+  color: var(--primary);
+}
