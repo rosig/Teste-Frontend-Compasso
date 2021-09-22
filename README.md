@@ -2,7 +2,7 @@
 
 ## Teste Frontend Compasso
 
-Desenvolvimento do desafio técnico da Compasso UOL (https://github.com/recrutamento-compassoapi-github-interview).
+Desenvolvimento do desafio técnico da Compasso UOL (https://github.com/recrutamento-compasso/api-github-interview).
 
 ## Protótipo
 
